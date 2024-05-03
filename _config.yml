@@ -1,68 +1,68 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 老谈的博客 | Hux Blog
-header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
-baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
+标题：Tan博客
+SEOTitle：老谭的博客|Tan博客
+header-img:IMG/home-bg.jpg
+电子邮件:tanz755465@gmail.com
+描述:"这里是@老谭 的个人博客，与你一起发现更大的世界|要做一个有swag的程序员"
+关键字:"黄玄，胡克黄玄，胡克，鬼栈，huxpro，@huxpro，黄玄的博客，Hux博客，博客，个人网站，互联网，Web、JavaScript、React、React Native、前端，设计"
+URL："https://tanz8.github.io" #您的主机，用于绝对URL
+baseUrl：“”#例如，"/blog"(如果您的日志位于"主机/博客"上)
 
-# Publish posts or collection documents with a future date.
-future: true
+#发布具有未来日期的帖子或集合文档。
+未来:正确
 
-# SNS settings
-RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
-#linkedin_username:  firstname-lastname-idxxxx
+#SNS设置
+RSS：假的
+微博用户名(_U)：huxpro
+知乎_用户名：huxpro
+GitHub_username:huxpro
+Twitter_username:huxpro
+#facebook_username:huxpro
+#linkedin_username:firstname-lastname-idxxxx
 
-# Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude:
+#生成设置
+#从2016年开始，GitHub页面不支持“pygments”。请使用“胭脂”来突出显示。
+荧光笔:胭脂
+永久链接:漂亮的
+分页:10
+排除:
   [
-    "less",
-    "node_modules",
+    "更少",
+    "节点模块",
     "Gruntfile.js",
-    "package.json",
+    "包.JSON",
     "README.md",
     "README.zh.md",
   ]
-anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
-# If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN
+anchorjs：正确#如果要自定义锚，请签出行：'Post.html'的181
+#如果您在中国遇到时区问题(例如#68)，请取消注释以使用以下内容：
+#时区：中国大陆
 
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-# make sure you have this gem installed
-# `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+#宝石
+#来自PR#40，支持Jekyll3.0的本地预览
+#确保已安装此gem
+#'$gem安装jekyll-paginate'
+插件:[哲基尔-浆状]
 
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
-markdown: kramdown
-kramdown:
-  input: GFM # use Github Flavored Markdown !important
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-      start_line: 1
+#降价设置
+#把红地毯换成克拉姆当，
+#虽然红地毯可以自动突出显示代码，但缺少header-id使目录不可能，所以我切换到克拉姆当
+#文档：http://jekyllrb.com/docs/configuration/#kramdown
+降价:克拉姆当
+克拉姆当:
+输入：GFM#使用GitHub风味降价！重要的
+语法_荧光笔_opts:
+跨度:
+行号(_N)：假的
+块:
+行号(_N)：正确
+起始线(_L)：1
 
-# Disqus settings
-disqus_username: hux
+#Disqus设置
+Disqus_username:Hux
 
-# Netease settings
-netease_comment: false
+#网易设置
+网易_comment:假的
 
 # Analytics settings
 # Baidu Analytics
